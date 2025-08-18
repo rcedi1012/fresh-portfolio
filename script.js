@@ -17,8 +17,8 @@ function setup() {
 
 function draw() {
     background(100)
-    image(bell, 0, 0, windowWidth * 0.1, ((7 * windowWidth)/8) * 0.1);
-    image(bell1,0,0)
+    image(bell, 0, 0, windowWidth, ((7 * windowWidth)/8));
+    image(bell1,0,0, windowWidth, ((7 * windowWidth)/8))
 }
 
 function windowResized() {
