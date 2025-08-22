@@ -1,6 +1,19 @@
+.navbar{
+    position:sticky;
+    top: 0px;
+}
+
+nav {
+    background:rgb(245, 224, 189);
+    min-height: 50px;
+    margin:0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+
 body {
-    background-color: rgb(239, 186, 61);
-    overflow: hidden;
+    background-color: rgb(79, 10, 10);
+    overflow-x:hidden;
 }
 
 #container {
@@ -12,9 +25,6 @@ body {
 canvas {
         border: 5px solid black;
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
         max-width: 1200px;
         max-height: 1050px;
     }
