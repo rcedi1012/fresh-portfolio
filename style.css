@@ -4,11 +4,26 @@
 }
 
 nav {
+    border: 10px solid rgb(172, 118, 93);
+    border-radius: 50px;
     background:rgb(245, 224, 189);
     min-height: 50px;
     margin:0 auto;
     text-align: center;
     line-height: 50px;
+}
+
+nav a{
+    color:rgb(61, 30, 9);
+    text-decoration: none;
+}
+
+nav a:visited{
+    color:rgb(197, 197, 196);
+}
+
+nav a:hover{
+    color: rgb(110, 19, 19);
 }
 
 body {
