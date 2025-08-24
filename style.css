@@ -9,6 +9,13 @@ html {
   font-style: normal;
 }
 
+#logo{
+    display:block;
+    width: 300px;
+    margin:auto;
+    padding: 10px;
+}
+
 .navbar{
     position:sticky;
     top: 0px;
@@ -46,19 +53,5 @@ body {
     font-family: Macondo;
     font-size: 25px;
     color:rgb(103, 79, 64);
-    background-color: rgb(83, 14, 14);
     overflow-x:hidden;
 }
-
-#container {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-canvas {
-        border: 5px solid black;
-        position: absolute;
-        max-width: 1200px;
-        max-height: 1050px;
-    }
