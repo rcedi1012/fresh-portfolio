@@ -84,7 +84,7 @@ body {
 }
 
 #About{
-    margin: 20px 60px;;
+    margin: 20px 80px;;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
@@ -94,7 +94,7 @@ body {
 }
 
 #Skills{
-    margin: 20px 60px;;
+    margin: 20px 80px;;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
@@ -104,7 +104,7 @@ body {
 }
 
 #Projects{
-    margin: 20px 60px;;
+    margin: 20px 80px;;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
@@ -114,7 +114,7 @@ body {
 }
 
 #Contact{
-    margin: 20px 60px;;
+    margin: 20px 80px;;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
