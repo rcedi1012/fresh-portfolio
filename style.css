@@ -1,21 +1,36 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+.macondo-regular {
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar{
     position:sticky;
     top: 0px;
 }
 
 nav {
-    border: 10px solid rgb(172, 118, 93);
+    border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
-    background:rgb(245, 224, 189);
-    min-height: 50px;
+    background:rgb(240, 242, 243);
     margin:0 auto;
     text-align: center;
-    line-height: 50px;
+    line-height: 12px;
 }
 
 nav a{
-    color:rgb(61, 30, 9);
+    display:inline-block;
+    font-family: Macondo;
+    font-size: 25px;
+    padding: 20px;
+    color:rgb(103, 79, 64);
     text-decoration: none;
+    transition: all .3s ease-out;
 }
 
 nav a:visited{
@@ -23,11 +38,15 @@ nav a:visited{
 }
 
 nav a:hover{
-    color: rgb(110, 19, 19);
+    transform: translate(0px, 5px);
+    color: rgb(172, 45, 37);
 }
 
 body {
-    background-color: rgb(79, 10, 10);
+    font-family: Macondo;
+    font-size: 25px;
+    color:rgb(103, 79, 64);
+    background-color: rgb(83, 14, 14);
     overflow-x:hidden;
 }
 
