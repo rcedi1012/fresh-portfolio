@@ -2,13 +2,13 @@ let paws = [];
 
 function windowResized(){
     bg.resize(window.innerWidth, window.innerHeight);
+    redraw();
 }
 
 function setup() {
     frameRate(60)
     bg = createCanvas(window.innerWidth, window.innerHeight);
-    bg.position(0,0);
-    bg.style('z-index', '-1');
+    bg.parent("pawbg");
 }
 
 function draw() {

@@ -1,3 +1,8 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
@@ -9,11 +14,23 @@ html {
   font-style: normal;
 }
 
+#pawbg{
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    z-index:-1;
+}
+
 #logo{
     display:block;
     width: 300px;
     margin:auto;
     padding: 10px;
+}
+
+h1{
+
+    text-align: center; 
 }
 
 .navbar{
@@ -54,4 +71,14 @@ body {
     font-size: 25px;
     color:rgb(103, 79, 64);
     overflow-x:hidden;
+}
+
+#About{
+    margin: 20px auto;
+    padding: 20px;
+    border: 10px solid rgb(208, 179, 166);
+    border-radius: 50px;
+    background:rgb(240, 242, 243);
+    text-align: center;
+    line-height: 40px;
 }
