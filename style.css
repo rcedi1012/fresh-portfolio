@@ -68,7 +68,7 @@ nav a{
 }
 
 nav a:visited{
-    color:rgb(197, 197, 196);
+    color:rgb(103, 79, 64);
 }
 
 nav a:hover{
@@ -84,7 +84,37 @@ body {
 }
 
 #About{
-    margin: 20px 20px;;
+    margin: 20px 60px;;
+    padding: 20px;
+    border: 10px solid rgb(208, 179, 166);
+    border-radius: 50px;
+    background:rgb(240, 242, 243);
+    text-align: center;
+    line-height: 40px;
+}
+
+#Skills{
+    margin: 20px 60px;;
+    padding: 20px;
+    border: 10px solid rgb(208, 179, 166);
+    border-radius: 50px;
+    background:rgb(240, 242, 243);
+    text-align: center;
+    line-height: 40px;
+}
+
+#Projects{
+    margin: 20px 60px;;
+    padding: 20px;
+    border: 10px solid rgb(208, 179, 166);
+    border-radius: 50px;
+    background:rgb(240, 242, 243);
+    text-align: center;
+    line-height: 40px;
+}
+
+#Contact{
+    margin: 20px 60px;;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;

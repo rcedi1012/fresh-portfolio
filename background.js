@@ -1,6 +1,5 @@
 let paws = [];
-let currentopacity = 0;
-let speedAnimate = 1;
+let rects = [];
 
 function windowResized(){
     bg.resize(window.innerWidth, window.innerHeight);
@@ -15,17 +14,6 @@ function setup() {
 
 function draw() {
     background(47, 15, 15);
-    noStroke();
-    if(currentopacity > 255 || currentopacity < 0) {
-    speedAnimate *= -1;
-    }
-    let numRectangles = 20;
-    let rectHeight = (window.innerHeight / 2) / numRectangles;
-    for (let y = 0; y < window.innerHeight/2; y += rectHeight) {
-        fill(187, 26, 26, currentopacity);
-        rect(0, y, window.innerWidth, rectHeight);
-    }
-    currentopacity += speedAnimate;
 
     if (random(0,2) <= 0.08) {
         pawg = new Paw(random(-10, window.innerWidth),window.innerHeight);
@@ -70,3 +58,5 @@ class Paw{
         }
     }
 }
+
+//TODO: add rectangle gradient, think asgore fight
