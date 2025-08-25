@@ -210,3 +210,21 @@ body {
     text-align: center;
     line-height: 40px;
 }
+
+.icons a{
+    display:inline-block;
+    font-family: Macondo;
+    font-size: 50px;
+    color:rgb(103, 79, 64);
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.icons a:visited{
+    color:rgb(103, 79, 64);
+}
+
+.icons a:hover{
+    transform: translate(0px, 5px);
+    color: rgb(172, 45, 37);
+}
