@@ -207,7 +207,35 @@ body {
 }
 
 ul {
-    
+    list-style-position: inside;
+}
+
+.prod a{
+    color: rgb(172, 45, 37);
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.prod a:visited{
+    color:rgb(103, 79, 64);
+}
+
+.prod a:hover{
+    color:rgb(103, 79, 64);
+}
+
+.roadkill a{
+    color: rgb(172, 45, 37);
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+.roadkill a:visited{
+    color:rgb(103, 79, 64);
+}
+
+.roadkill a:hover{
+    color:rgb(103, 79, 64);
 }
 
 #Contact{
