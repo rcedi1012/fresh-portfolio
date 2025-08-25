@@ -52,7 +52,8 @@ nav {
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
     background:rgb(240, 242, 243);
-    margin: 20px 5px;
+    margin: 20px auto;
+    max-width: 1600px;
     text-align: center;
     line-height: 12px;
 }
@@ -84,7 +85,8 @@ body {
 }
 
 #About{
-    margin: 20px 80px;;
+    margin: 20px auto;
+    max-width: 1500px;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
@@ -94,7 +96,8 @@ body {
 }
 
 #Skills{
-    margin: 20px 80px;;
+    margin: 20px auto;
+    max-width: 1500px;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
@@ -109,7 +112,8 @@ body {
 }
 
 .chart{
-    width:60%;
+    margin:auto;
+    width:40%;
     height: auto;
     aspect-ratio: 1/1;
     border: 10px solid rgb(103, 79, 64);
@@ -186,7 +190,8 @@ body {
 }  
 
 #Projects{
-    margin: 20px 80px;;
+    margin: 20px auto;
+    max-width: 1500px;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
@@ -196,7 +201,8 @@ body {
 }
 
 #Contact{
-    margin: 20px 80px;;
+    margin: 20px auto;
+    max-width: 1500px;
     padding: 20px;
     border: 10px solid rgb(208, 179, 166);
     border-radius: 50px;
